@@ -10,6 +10,7 @@ import '@/styles/work.css';
 import { SiteNav } from '@/components/SiteNav';
 import { FoundationFooter } from '@/components/FoundationFooter';
 import '@/styles/footer.css';
+import '@/styles/buttons.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kennethteetersfoundation.org'),

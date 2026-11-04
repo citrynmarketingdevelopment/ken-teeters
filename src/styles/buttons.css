@@ -1,0 +1,145 @@
+/* Shared action styles. Photo thumbnails and text navigation keep their own layout.
+   Legacy builder buttons require important declarations to replace inline-era rules. */
+:root {
+  --button-red: #b31f36;
+  --button-red-hover: #94192d;
+  --button-white: #fff;
+  --button-navy: #21325f;
+  --button-border: #cbd3df;
+  --button-radius: 8px;
+}
+
+:is(
+  .foundation-button,
+  .foundation-text-link,
+  .site-apply,
+  .site-donate,
+  .application .download,
+  .application form > button,
+  .community-work-preview__link,
+  .shared-footer__message,
+  .gallery-viewer__button,
+  .gallery-viewer__error button,
+  .work-photo-viewer button,
+  .work-image-error button,
+  .gallery-end a,
+  .et_pb_button
+) {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  min-height: 48px !important;
+  padding: 12px 22px !important;
+  border: 1px solid var(--action-border, var(--button-red)) !important;
+  border-radius: var(--button-radius) !important;
+  background: var(--action-bg, var(--button-red)) !important;
+  background-image: none !important;
+  color: var(--action-ink, var(--button-white)) !important;
+  font: 500 16px/1.4 Jost, Arial, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease !important;
+  filter: none !important;
+
+  &:hover:not(:disabled) {
+    background: var(--action-hover, var(--button-red-hover)) !important;
+    border-color: var(--action-hover-border, var(--button-red-hover)) !important;
+  }
+
+  &:active:not(:disabled) { transform: scale(.98); }
+  &:focus-visible { outline: 3px solid #bb8e39; outline-offset: 4px; }
+  &:disabled { opacity: .6; cursor: wait; transform: none; }
+  & svg { flex-shrink: 0; width: 18px; height: 18px; }
+}
+
+/* Secondary actions always use the same white surface and navy label. */
+:is(
+  .site-donate,
+  .foundation-text-link,
+  .application .download,
+  .shared-footer__message,
+  .gallery-viewer__button,
+  .gallery-viewer__error button,
+  .work-photo-viewer button,
+  .work-image-error button,
+  .gallery-end a,
+  .source-home .et_pb_button_0
+) {
+  --action-bg: var(--button-white);
+  --action-ink: var(--button-navy);
+  --action-border: var(--button-border);
+  --action-hover: #eef1f7;
+  --action-hover-border: #8a98ac;
+}
+
+/* Icon controls share the same corners, contrast and touch-target size. */
+.site-header :is(.site-menu-toggle, .site-theme-toggle),
+.work-photo-viewer header button {
+  min-width: 48px;
+  min-height: 48px;
+  border: 1px solid var(--button-border);
+  border-radius: var(--button-radius);
+  background: var(--button-white);
+  color: var(--button-navy);
+}
+.work-photo-viewer header button { padding: 12px !important; }
+.site-header .site-menu-toggle { font: 500 16px/1.4 Jost, Arial, sans-serif; }
+.site-header .site-nav-label button { min-width: 44px; min-height: 48px; }
+
+/* Amount and year selectors use the same white/red selected-state palette. */
+.donation-options label,
+.gallery-years a {
+  border: 1px solid var(--button-border);
+  border-radius: var(--button-radius);
+  background: var(--button-white);
+  color: var(--button-navy);
+  min-height: 48px;
+  font-family: Jost, Arial, sans-serif;
+  font-weight: 500;
+}
+.donation-options label.selected,
+.gallery-years a[aria-current=page] {
+  background: var(--button-red);
+  border-color: var(--button-red);
+  color: var(--button-white);
+}
+.gallery-years a[aria-current=page] .gallery-years__count { color: inherit; }
+.gallery-years a:hover { background: #eef1f7; color: var(--button-navy); }
+.gallery-years a[aria-current=page]:hover { background: var(--button-red-hover); color: var(--button-white); }
+
+@media (max-width: 1023px) {
+  .site-navigation :is(.site-apply, .site-donate) { width: 100%; }
+}
+@media (max-width: 767px) {
+  .source-home .et_pb_section_0 .et_pb_row_1 a.et_pb_button { width: 100%; }
+  .gallery-viewer__tools .gallery-viewer__button { min-width: 48px; padding: 12px !important; }
+  .gallery-viewer__footer .gallery-viewer__button,
+  .work-photo-viewer footer button { padding: 12px !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.foundation-button, .foundation-text-link, .site-apply, .site-donate, .application .download,
+    .application form > button, .community-work-preview__link, .shared-footer__message,
+    .gallery-viewer__button, .gallery-viewer__error button, .work-photo-viewer button,
+    .work-image-error button, .gallery-end a, .et_pb_button) {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* Match the legacy builder's specificity only where its important rules require it. */
+.source-home #page-container .et_pb_section .et_pb_button {
+  padding: 12px 22px !important;
+  border: 1px solid var(--action-border, var(--button-red)) !important;
+  color: var(--action-ink, var(--button-white)) !important;
+  font: 500 16px/1.4 Jost, Arial, sans-serif !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+.source-home #page-container .et_pb_section .et_pb_button:hover {
+  color: var(--action-ink, var(--button-white)) !important;
+}
