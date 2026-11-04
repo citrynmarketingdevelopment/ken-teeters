@@ -1,0 +1,80 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "location": null,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/2024-gallery/",
+    "status": 200,
+    "location": null,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/2025-gallery/",
+    "status": 200,
+    "location": null,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/2026-gallery/",
+    "status": 200,
+    "location": null,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "location": null,
+    "type": "application/xml"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "location": null,
+    "type": "text/plain"
+  },
+  {
+    "path": "/assets/documents/aplication.pdf",
+    "status": 200,
+    "location": null,
+    "type": "application/pdf"
+  },
+  {
+    "path": "/nonexistent-page/",
+    "status": 404,
+    "location": null,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/sitemap_index.xml",
+    "status": 308,
+    "location": "/sitemap.xml",
+    "type": null
+  },
+  {
+    "path": "/page-sitemap.xml",
+    "status": 308,
+    "location": "/sitemap.xml",
+    "type": null
+  },
+  {
+    "path": "/wp-sitemap.xml",
+    "status": 308,
+    "location": "/sitemap.xml",
+    "type": null
+  },
+  {
+    "path": "/wp-content/uploads/2026/03/aplication.pdf",
+    "status": 308,
+    "location": "/assets/documents/aplication.pdf",
+    "type": null
+  },
+  {
+    "path": "/2024-gallery",
+    "status": 308,
+    "location": "/2024-gallery/",
+    "type": null
+  }
+]

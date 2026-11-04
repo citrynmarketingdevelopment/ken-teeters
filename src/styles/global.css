@@ -1,0 +1,40 @@
+/* Standalone behavior and accessibility. Source geometry lives in scoped page files. */
+html,body {margin:0;padding:0;min-height:100%;}
+html {scroll-behavior:smooth;}
+body {background:#fff;}
+.migration-page {min-height:100vh;}
+.skip-link {position:fixed;top:8px;left:8px;padding:12px 18px;background:white;color:#102d46;z-index:10000;transform:translateY(-160%);}
+.skip-link:focus {transform:translateY(0);}
+:focus-visible {outline:3px solid #c99a53;outline-offset:4px;}
+.migration-page .et_pb_section_video_bg {position:absolute;inset:0;overflow:hidden;}
+.migration-page .et_pb_section_video_bg video {position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;}
+.migration-page .et_pb_gallery_fullwidth .et_pb_gallery_items {position:relative;}
+.migration-page .et_pb_gallery_fullwidth .et_pb_gallery_item {display:none!important;position:relative!important;opacity:1!important;float:none!important;}
+.migration-page .et_pb_gallery_fullwidth .et_pb_gallery_item.et-pb-active-slide {display:block!important;}
+.migration-page .et_pb_gallery_fullwidth .et-pb-controllers {display:flex;justify-content:center;align-items:center;gap:10px;position:absolute;bottom:20px;left:0;right:0;z-index:10;}
+.migration-page .et-pb-controllers button {display:block;width:7px;height:7px;padding:0;margin:0;border:0;border-radius:50%;background:rgba(0,0,0,.35);cursor:pointer;}
+.migration-page .et-pb-controllers button.et-pb-active-control {background:#333;}
+.migration-page .et-pb-slider-arrows button {border:0;background:none;cursor:pointer;color:inherit;padding:0;}
+.migration-page .et-pb-slider-arrows button:focus-visible {opacity:1;}
+.migration-page .et-pb-slider-arrows .et-pb-arrow-prev:before {content:'4';}
+.migration-page .et-pb-slider-arrows .et-pb-arrow-next:before {content:'5';}
+.migration-page [data-migration-animate].migration-visible {animation:migration-fade 1s ease both;}
+@keyframes migration-fade {from{opacity:0;}to{opacity:1;}}
+.photo-viewer {position:fixed;inset:0;box-sizing:border-box;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:0;border:0;background:rgba(0,0,0,.82);color:#fff;z-index:100000;}
+.photo-viewer::backdrop {background:rgba(0,0,0,.25);}
+.photo-viewer[open] {display:flex;align-items:center;justify-content:center;}
+.photo-viewer figure {margin:0;width:min(90vw,1440px);pointer-events:none;}
+.viewer-image {position:relative;width:100%;height:85dvh;}
+.photo-viewer figcaption {text-align:right;color:#ccc;font:12px/1.5 Arial,sans-serif;}
+.photo-viewer button {position:absolute;border:0;background:transparent;color:rgba(255,255,255,.85);cursor:pointer;z-index:2;}
+.viewer-close {right:20px;top:8px;font:40px/1 Arial,sans-serif;}
+.viewer-prev,.viewer-next {top:45%;padding:12px;font:64px/1 Georgia,serif;}
+.viewer-prev {left:10px;}.viewer-next {right:10px;}
+@media(max-width:767px){.viewer-prev{left:0;}.viewer-next{right:0;}.viewer-prev,.viewer-next{font-size:46px;padding:5px;}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}.migration-page [data-migration-animate].migration-visible{animation:none!important;}}
+/* Original entrance timing, easing, delays, and vertical slide intensity. */
+.migration-page [data-migration-animate].migration-visible {animation-duration:var(--entrance-duration,1s);animation-delay:var(--entrance-delay,0ms);animation-timing-function:var(--entrance-easing,ease);}
+.migration-page [data-migration-animate="slideBottom"].migration-visible {animation-name:migration-slide-bottom;}
+@keyframes migration-slide-bottom {from{opacity:0;transform:translateY(var(--entrance-intensity,10%));}to{opacity:1;transform:translateY(0);}}
+.migration-page .et_pb_gallery_fullwidth .et-pb-active-slide {animation:migration-fade .7s ease;}
+@media(prefers-reduced-motion:reduce){.migration-page .et_pb_gallery_fullwidth .et-pb-active-slide{animation:none;}}

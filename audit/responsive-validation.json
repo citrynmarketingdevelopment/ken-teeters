@@ -1,0 +1,230 @@
+[
+  {
+    "route": "/",
+    "viewportWidth": 1440,
+    "contentWidth": 1425,
+    "sourceSectionHeights": [
+      658,
+      664,
+      741,
+      365,
+      119,
+      457,
+      902,
+      1337,
+      479
+    ],
+    "localSectionHeights": [
+      658,
+      664,
+      741,
+      365,
+      119,
+      457,
+      902,
+      1337,
+      479
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2024-gallery/",
+    "viewportWidth": 1440,
+    "contentWidth": 1425,
+    "sourceSectionHeights": [
+      1465
+    ],
+    "localSectionHeights": [
+      1465
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2025-gallery/",
+    "viewportWidth": 1440,
+    "contentWidth": 1425,
+    "sourceSectionHeights": [
+      1465
+    ],
+    "localSectionHeights": [
+      1465
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2026-gallery/",
+    "viewportWidth": 1440,
+    "contentWidth": 1425,
+    "sourceSectionHeights": [
+      990
+    ],
+    "localSectionHeights": [
+      990
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/",
+    "viewportWidth": 768,
+    "contentWidth": 753,
+    "sourceSectionHeights": [
+      552,
+      1339,
+      1325,
+      889,
+      194,
+      938,
+      1039,
+      2455,
+      627
+    ],
+    "localSectionHeights": [
+      552,
+      1339,
+      1325,
+      889,
+      194,
+      938,
+      1039,
+      2455,
+      627
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2024-gallery/",
+    "viewportWidth": 768,
+    "contentWidth": 753,
+    "sourceSectionHeights": [
+      2501
+    ],
+    "localSectionHeights": [
+      2501
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2025-gallery/",
+    "viewportWidth": 768,
+    "contentWidth": 753,
+    "sourceSectionHeights": [
+      2501
+    ],
+    "localSectionHeights": [
+      2501
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2026-gallery/",
+    "viewportWidth": 768,
+    "contentWidth": 753,
+    "sourceSectionHeights": [
+      1678
+    ],
+    "localSectionHeights": [
+      1678
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/",
+    "viewportWidth": 390,
+    "contentWidth": 375,
+    "sourceSectionHeights": [
+      502,
+      1079,
+      1348,
+      840,
+      196,
+      684,
+      752,
+      1635,
+      651
+    ],
+    "localSectionHeights": [
+      502,
+      1079,
+      1348,
+      840,
+      196,
+      684,
+      752,
+      1635,
+      651
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2024-gallery/",
+    "viewportWidth": 390,
+    "contentWidth": 375,
+    "sourceSectionHeights": [
+      4747
+    ],
+    "localSectionHeights": [
+      4747
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2025-gallery/",
+    "viewportWidth": 390,
+    "contentWidth": 375,
+    "sourceSectionHeights": [
+      4747
+    ],
+    "localSectionHeights": [
+      4747
+    ],
+    "maxDifferenceCssPx": 0,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  },
+  {
+    "route": "/2026-gallery/",
+    "viewportWidth": 390,
+    "contentWidth": 375,
+    "sourceSectionHeights": [
+      3243
+    ],
+    "localSectionHeights": [
+      3244
+    ],
+    "maxDifferenceCssPx": 1,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "headingsMatch": true
+  }
+]

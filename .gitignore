@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+
+# Original offline browser capture; preserved assets are under public/assets.
+/Kenneth Teeters Foundation _ Supporting Local Veterans.html
+/Kenneth Teeters Foundation _ Supporting Local Veterans_files/
+/flag-of-american-2023-11-27-05-32-10-utc.webm
+__pycache__/
+*.pyc

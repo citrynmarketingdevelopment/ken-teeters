@@ -1,0 +1,11 @@
+{
+  "unwantedRuntimeDependencies": [],
+  "allowedProductionDomainUses": [
+    "canonical URLs",
+    "Open Graph URL",
+    "JSON-LD identifiers and locally hosted asset URLs",
+    "sitemap and robots"
+  ],
+  "intentionalLegacyPath": "next.config.ts redirects old PDF URL to /assets/documents/aplication.pdf",
+  "archivedOriginalReferences": "audit/ and original user-supplied HTML/files are offline evidence and not served"
+}

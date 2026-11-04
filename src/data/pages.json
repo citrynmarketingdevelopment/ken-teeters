@@ -1,0 +1,264 @@
+{
+  "home": {
+    "title": "Kenneth Teeters Foundation | Supporting Local Veterans",
+    "description": "The Teeters Foundation, founded by Kenneth Teeters, provides vital support to veterans with home repairs, vehicle needs, mental health, and VA guidance.",
+    "path": "/",
+    "modified": "2026-08-28T18:32:25+00:00",
+    "bodyClasses": "home wp-singular page-template-default page page-id-15 wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-header-disabled et_pb_button_helper_class et_pb_footer_columns1 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db",
+    "image": "/assets/images/featured-01.jpg",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kennethteetersfoundation.org/",
+          "url": "https://kennethteetersfoundation.org/",
+          "name": "Kenneth Teeters Foundation | Supporting Local Veterans",
+          "isPartOf": {
+            "@id": "https://kennethteetersfoundation.org/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://kennethteetersfoundation.org/#primaryimage"
+          },
+          "image": {
+            "@id": "https://kennethteetersfoundation.org/#primaryimage"
+          },
+          "thumbnailUrl": "https://kennethteetersfoundation.org/assets/images/featured-01.jpg",
+          "datePublished": "2025-08-05T17:12:57+00:00",
+          "dateModified": "2026-08-28T18:32:25+00:00",
+          "description": "The Teeters Foundation, founded by Kenneth Teeters, provides vital support to veterans with home repairs, vehicle needs, mental health, and VA guidance.",
+          "breadcrumb": {
+            "@id": "https://kennethteetersfoundation.org/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://kennethteetersfoundation.org/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "ImageObject",
+          "inLanguage": "en-US",
+          "@id": "https://kennethteetersfoundation.org/#primaryimage",
+          "url": "https://kennethteetersfoundation.org/assets/images/featured-01.jpg",
+          "contentUrl": "https://kennethteetersfoundation.org/assets/images/featured-01.jpg",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://kennethteetersfoundation.org/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://kennethteetersfoundation.org/#website",
+          "url": "https://kennethteetersfoundation.org/",
+          "name": "Kenneth Teeters Foundation",
+          "description": "",
+          "alternateName": "Teeters Foundation",
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "2024-gallery": {
+    "title": "2024 Gallery | Kenneth Teeters Foundation",
+    "description": "2024 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+    "path": "/2024-gallery/",
+    "modified": "2025-08-25T19:19:28+00:00",
+    "bodyClasses": "wp-singular page-template-default page page-id-87257 wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-header-disabled et_pb_button_helper_class et_pb_footer_columns1 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db",
+    "image": "/assets/images/featured-01.jpg",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kennethteetersfoundation.org/2024-gallery/",
+          "url": "https://kennethteetersfoundation.org/2024-gallery/",
+          "name": "2024 Gallery | Kenneth Teeters Foundation",
+          "isPartOf": {
+            "@id": "https://kennethteetersfoundation.org/#website"
+          },
+          "datePublished": "2025-08-12T18:14:02+00:00",
+          "dateModified": "2025-08-25T19:19:28+00:00",
+          "description": "2024 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+          "breadcrumb": {
+            "@id": "https://kennethteetersfoundation.org/2024-gallery/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://kennethteetersfoundation.org/2024-gallery/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://kennethteetersfoundation.org/2024-gallery/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://kennethteetersfoundation.org/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "2024 Gallery"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://kennethteetersfoundation.org/#website",
+          "url": "https://kennethteetersfoundation.org/",
+          "name": "Kenneth Teeters Foundation",
+          "description": "",
+          "alternateName": "Teeters Foundation",
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "2025-gallery": {
+    "title": "2025 Gallery | Kenneth Teeters Foundation",
+    "description": "2025 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+    "path": "/2025-gallery/",
+    "modified": "2025-08-25T19:28:00+00:00",
+    "bodyClasses": "wp-singular page-template-default page page-id-87186 wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-header-disabled et_pb_button_helper_class et_pb_footer_columns1 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db",
+    "image": "/assets/images/featured-01.jpg",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kennethteetersfoundation.org/2025-gallery/",
+          "url": "https://kennethteetersfoundation.org/2025-gallery/",
+          "name": "2025 Gallery | Kenneth Teeters Foundation",
+          "isPartOf": {
+            "@id": "https://kennethteetersfoundation.org/#website"
+          },
+          "datePublished": "2025-08-07T22:22:27+00:00",
+          "dateModified": "2025-08-25T19:28:00+00:00",
+          "description": "2025 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+          "breadcrumb": {
+            "@id": "https://kennethteetersfoundation.org/2025-gallery/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://kennethteetersfoundation.org/2025-gallery/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://kennethteetersfoundation.org/2025-gallery/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://kennethteetersfoundation.org/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "2025 Gallery"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://kennethteetersfoundation.org/#website",
+          "url": "https://kennethteetersfoundation.org/",
+          "name": "Kenneth Teeters Foundation",
+          "description": "",
+          "alternateName": "Teeters Foundation",
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "2026-gallery": {
+    "title": "2026 Gallery | Kenneth Teeters Foundation",
+    "description": "2026 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+    "path": "/2026-gallery/",
+    "modified": "2026-06-24T21:47:36+00:00",
+    "bodyClasses": "wp-singular page-template-default page page-id-87311 wp-theme-Divi et-tb-has-template et-tb-has-header et-tb-header-disabled et_pb_button_helper_class et_pb_footer_columns1 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db",
+    "image": "/assets/images/featured-01.jpg",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kennethteetersfoundation.org/2026-gallery/",
+          "url": "https://kennethteetersfoundation.org/2026-gallery/",
+          "name": "2026 Gallery | Kenneth Teeters Foundation",
+          "isPartOf": {
+            "@id": "https://kennethteetersfoundation.org/#website"
+          },
+          "datePublished": "2026-06-24T21:47:35+00:00",
+          "dateModified": "2026-06-24T21:47:36+00:00",
+          "description": "2026 Gallery | The Kenneth Teeters Foundation is dedicated to supporting local veterans with practical assistance, community partnerships, and mental health support.",
+          "breadcrumb": {
+            "@id": "https://kennethteetersfoundation.org/2026-gallery/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://kennethteetersfoundation.org/2026-gallery/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://kennethteetersfoundation.org/2026-gallery/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://kennethteetersfoundation.org/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "2026 Gallery"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://kennethteetersfoundation.org/#website",
+          "url": "https://kennethteetersfoundation.org/",
+          "name": "Kenneth Teeters Foundation",
+          "description": "",
+          "alternateName": "Teeters Foundation",
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  }
+}

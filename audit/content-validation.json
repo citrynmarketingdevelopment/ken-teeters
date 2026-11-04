@@ -1,0 +1,22 @@
+[
+  {
+    "page": "home",
+    "exactText": true,
+    "headings": true
+  },
+  {
+    "page": "2024-gallery",
+    "exactText": true,
+    "headings": true
+  },
+  {
+    "page": "2025-gallery",
+    "exactText": true,
+    "headings": true
+  },
+  {
+    "page": "2026-gallery",
+    "exactText": true,
+    "headings": true
+  }
+]

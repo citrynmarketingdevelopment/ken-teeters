@@ -1,0 +1,14 @@
+# Migration inventory
+
+Audited November 4, 2026. WordPress REST pages, empty posts collection, sitemap index, page sitemap, all page links, and robots.txt checked.
+
+| URL | Content | Updated |
+|---|---|---|
+| / | Mission, fundraising, community stories, contact | 2026-08-28 |
+| /2024-gallery/ | 12 fundraiser photographs | 2025-08-25 |
+| /2025-gallery/ | 12 fundraiser photographs | 2025-08-25 |
+| /2026-gallery/ | 8 fundraiser photographs | 2026-06-24 |
+
+No enabled header navigation, dropdown, blog, archive, search, pagination or submission form was found. Galleries have image lightboxes; homepage has two renovation slideshows (4 and 6 images). Donation is an intentional external QuickClick payment link. Get Involved scrolls to #contact. Application is a local PDF download. News video is an intentional third-party Scripps player. Footer displays a date and contact information. No email/SMTP integration is needed. Original footer/annual-event wording, including spelling and dates, is preserved.
+
+Assets include gallery originals and responsive variants, CSS backgrounds, logo, favicon, webfonts, flag WebM video and application PDF. Original raw HTML and API responses are retained in audit/ as evidence, never served.
