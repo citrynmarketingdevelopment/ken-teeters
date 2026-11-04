@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
-import { MigrationPage } from '@/components/MigrationPage';
+import { GalleryPage } from '@/components/gallery/GalleryPage';
+import { getAlbum } from '@/data/galleries';
 import { pages, pageMetadata, type PageKey } from '@/lib/content';
 const galleries=['2024-gallery','2025-gallery','2026-gallery'] as const;
 export const dynamicParams=false;
@@ -12,5 +13,7 @@ export async function generateMetadata({params}:{params:Promise<{slug:string}>})
 export default async function Gallery({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params;
   if(!galleries.includes(slug as typeof galleries[number])) notFound();
-  return <MigrationPage pageKey={slug as PageKey}/>;
+  const album = getAlbum(slug);
+  if (!album) notFound();
+  return <GalleryPage album={album}/>;
 }

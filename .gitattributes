@@ -1,3 +1,4 @@
 * text=auto
 # Preserve downloaded assets byte-for-byte on every checkout platform.
 /public/assets/** -text
+*.pdf binary

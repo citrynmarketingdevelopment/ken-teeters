@@ -1,0 +1,14 @@
+import Image from 'next/image';
+import { ArrowRightIcon } from '@phosphor-icons/react/ssr';
+import { DonationForm } from '@/components/DonationForm';
+import { InquiryForm } from '@/components/InquiryForm';
+export const metadata = { title: 'Get Involved | Kenneth Teeters Foundation', description: 'Support local veterans with a monthly donation, contribute your professional services, or contact the Kenneth Teeters Foundation.' };
+export default function GetInvolvedPage() {
+  return <div className="foundation-page"><main id="main-content" className="foundation-shell">
+    <section className="foundation-hero"><div><p className="foundation-kicker">GET INVOLVED</p><h1>Give back.<br />Make it personal.</h1><p>Your generosity and skills can help local veterans feel supported, safe, and connected.</p><a href="#monthly-donor" className="foundation-button">Give Monthly <ArrowRightIcon size={19} /></a></div><figure className="hero-photo"><Image src="/assets/images/fundraiser_2024_07.webp" alt="Community members together at the foundation's Sporting Clay Shoot fundraiser" width={1350} height={1800} sizes="(max-width: 767px) 100vw, 50vw" preload /><figcaption>Neighbors coming together for local veterans.</figcaption></figure></section>
+    <nav className="section-links" aria-label="Get Involved sections"><a href="#monthly-donor">Become a Monthly Donor</a><a href="#donate-services">Donate Your Services</a><a href="#contact">Contact Us</a></nav>
+    <section id="monthly-donor" className="foundation-section giving-section"><div><h2>A little each month.<br />Support that continues.</h2><p>Monthly giving helps the foundation plan for home repairs, vehicle maintenance, and the needs of veterans in our community.</p><p>Choose $10, $20, $100, $500, or an amount that works for you.</p></div><DonationForm /></section>
+    <section id="donate-services" className="foundation-section volunteer-section"><div><h2>Your skills can<br />make a difference.</h2><p>Plumbers, builders, electricians, mechanics, and other local businesses can help turn a request for assistance into practical support.</p><Image className="volunteer-photo" src="/assets/images/bathroom-after-2.webp" alt="A completed bathroom improvement supported by the foundation" width={1290} height={968} sizes="(max-width: 767px) 100vw, 40vw" /><p className="form-note">Tell us what you do, where you work, and how you would like to contribute. We will follow up about opportunities.</p></div><InquiryForm kind="services" /></section>
+    <section id="contact" className="foundation-section contact-section"><div><p className="foundation-kicker">CONTACT US</p><h2>Let’s talk.</h2><p>Have a question about assistance, donations, or an upcoming event? Get in touch.</p><address><a href="tel:+16614961400">661-496-1400</a><br />PO Box 80203<br />Bakersfield, CA 93380</address></div><InquiryForm kind="contact" /></section>
+  </main></div>;
+}

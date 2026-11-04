@@ -1,0 +1,137 @@
+[
+  {
+    "viewportWidth": 375,
+    "year": 2024,
+    "columns": 2,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 375,
+    "year": 2025,
+    "columns": 2,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 375,
+    "year": 2026,
+    "columns": 2,
+    "visiblePhotos": 8,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 390,
+    "year": 2024,
+    "columns": 2,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 390,
+    "year": 2025,
+    "columns": 2,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 390,
+    "year": 2026,
+    "columns": 2,
+    "visiblePhotos": 8,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 768,
+    "year": 2024,
+    "columns": 3,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 768,
+    "year": 2025,
+    "columns": 3,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 768,
+    "year": 2026,
+    "columns": 3,
+    "visiblePhotos": 8,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1024,
+    "year": 2024,
+    "columns": 3,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1024,
+    "year": 2025,
+    "columns": 3,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1024,
+    "year": 2026,
+    "columns": 3,
+    "visiblePhotos": 8,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1440,
+    "year": 2024,
+    "columns": 4,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1440,
+    "year": 2025,
+    "columns": 4,
+    "visiblePhotos": 12,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  },
+  {
+    "viewportWidth": 1440,
+    "year": 2026,
+    "columns": 4,
+    "visiblePhotos": 8,
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "waitedForHydration": true
+  }
+]

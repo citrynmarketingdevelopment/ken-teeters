@@ -1,0 +1,4 @@
+export const fields = [
+  ['name','Full name','text',true], ['sex','Sex (optional)','text',false], ['address','Mailing address','text',true], ['housing','Rent or own','select',false], ['service_address','Service address, if different','text',false], ['home_phone','Home phone','tel',false], ['cell_phone','Cell phone','tel',false], ['email','Email address','email',true], ['branch','Service branch','text',true], ['years','Service years','text',true], ['retired','Retired?','yesno',false], ['disabled','Disabled?','yesno',false], ['discharge','Honorable discharge?','yesno',false], ['dd214','DD214 available?','yesno',false], ['areas','Areas of improvement','areas',true], ['explanation','Brief explanation of request','textarea',true],
+] as const;
+export const areas = ['Exterior accessibility','Interior accessibility','Kitchen','Bathroom','Other'] as const;

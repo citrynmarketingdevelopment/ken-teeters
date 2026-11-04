@@ -1,0 +1,121 @@
+{
+  "projects": [
+    {
+      "id": "ralph-lopez",
+      "name": "A safer bathroom for Ralph J. Lopez",
+      "summary": "A bathroom renovation to create a safer, more accessible space for a local veteran.",
+      "work": "The bathroom was renovated to support safer everyday use. The completed space is shown with shower seating and grab rails.",
+      "portrait": {
+        "src": "/assets/images/Image_20251020_153720_932.png",
+        "width": 1153,
+        "height": 1537
+      },
+      "groups": [
+        {
+          "title": "Before",
+          "description": "The existing bathroom and the wall opened for repairs.",
+          "photos": [
+            {
+              "src": "/assets/images/bathroom-before-2.webp",
+              "width": 1290,
+              "height": 968,
+              "caption": "Existing tub and bath seat"
+            },
+            {
+              "src": "/assets/images/bathroom-before-1.webp",
+              "width": 1290,
+              "height": 968,
+              "caption": "Wall opened for repairs"
+            }
+          ]
+        },
+        {
+          "title": "After",
+          "description": "The completed shower area, with seating and support rails.",
+          "photos": [
+            {
+              "src": "/assets/images/bathroom-after-2.webp",
+              "width": 1290,
+              "height": 968,
+              "caption": "Shower seating and grab rails"
+            },
+            {
+              "src": "/assets/images/bathroom-after-1.webp",
+              "width": 1290,
+              "height": 968,
+              "caption": "Completed shower area"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edmond-sweeney",
+      "name": "Home remodel support for Edmond Sweeney Jr.",
+      "summary": "Honoring 30 years of service with practical support at home through the Gifter Remodel program.",
+      "work": "Edmond Sweeney Jr. served from April 1954 to April 1984, including time in Korea and Hawaii. Through its Gifter Remodel program, the Kenneth Teeters Foundation helped Edmond with a home remodel. The project reflects our commitment to supporting veterans with everyday needs at home. Below, photographs of the interior, entrance ramp, and bathroom provide a look at his home and the areas involved in the project.",
+      "portrait": {
+        "src": "/assets/images/Image_20260624_130010_013.jpeg",
+        "width": 303,
+        "height": 405
+      },
+      "groups": [
+        {
+          "title": "Interior before the remodel",
+          "description": "Kitchen and ceiling conditions documented before the work.",
+          "photos": [
+            {
+              "src": "/assets/images/Image_20260624_130010_038.jpg",
+              "width": 436,
+              "height": 582,
+              "caption": "Kitchen ceiling before the remodel"
+            },
+            {
+              "src": "/assets/images/Image_20260624_134050_729-1.jpg",
+              "width": 412,
+              "height": 549,
+              "caption": "Kitchen before the remodel"
+            }
+          ]
+        },
+        {
+          "title": "Home access",
+          "description": "Two views of the access ramp at Edmond\u2019s home.",
+          "photos": [
+            {
+              "src": "/assets/images/Image_20260624_130009_879.jpg",
+              "width": 386,
+              "height": 513,
+              "caption": "Access ramp at the entrance"
+            },
+            {
+              "src": "/assets/images/Image_20260624_130010_013.jpg",
+              "width": 418,
+              "height": 557,
+              "caption": "Edmond at the access ramp"
+            }
+          ]
+        },
+        {
+          "title": "Bathroom accessibility",
+          "description": "The toilet area and adjacent support rails.",
+          "photos": [
+            {
+              "src": "/assets/images/Image_20260624_130009_939.jpg",
+              "width": 485,
+              "height": 648,
+              "caption": "Toilet area"
+            },
+            {
+              "src": "/assets/images/Image_20260624_130009_822.jpg",
+              "width": 457,
+              "height": 608,
+              "caption": "Support rails beside the toilet"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverageVideo": "https://assets.scrippsdigital.com/cms/video/player.html?video=https://content.uplynk.com/297db73ceca4454c9a303924e727f7a4.m3u8&mp4=https://cf.cdn.uplynk.com/ause/slices/297/3870ad0511fa47a79b3577075088ec91/297db73ceca4454c9a303924e727f7a4/297db73ceca4454c9a303924e727f7a4_e.mp4&autoplay=false&purl=/news/in-your-neighborhood/bakersfield/veterans-helping-veterans-in-bakersfield-with-a-completed-bathroom-renovation&ads.iu=/6088/ssp.kero/news/in-your-neighborhood/bakersfield/veterans-helping-veterans-in-bakersfield-with-a-completed-bathroom-renovation&ads.proxy=1&poster=https://cf.cdn.uplynk.com/ause/slices/297/3870ad0511fa47a79b3577075088ec91/297db73ceca4454c9a303924e727f7a4/poster_61d51d1707a0412ca9ad375a11136fe0.jpeg&title=A%20Local%20Veteran%20Helping%20Veterans%20in%20Bakersfield&kw=Bakersfield%2CBakersfield%20news%2Cday%2Chonor%2Ckern%20county%20news%2Cnonprofit%2Crenovation%2Cvet%2Cveteran&contplay=*recent&mute=0&tags=Local%20News%2CNews%2CHomepage%20Showcase%2CIn%20Your%20Neighborhood%2CBakersfield&section=Bakersfield&cust_params=temp%3D%26weather%3D&host=turnto23.com&s=kero&env=production&ex=1"
+}

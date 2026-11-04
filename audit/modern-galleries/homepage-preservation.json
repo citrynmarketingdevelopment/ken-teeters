@@ -1,0 +1,31 @@
+{
+  "untouchedSections": [
+    "et_pb_section_0",
+    "et_pb_section_1",
+    "et_pb_section_2",
+    "et_pb_section_4",
+    "et_pb_section_5",
+    "et_pb_section_6",
+    "et_pb_section_7"
+  ],
+  "exactMarkupPreserved": false,
+  "sectionHashes": {
+    "et_pb_section_0": "01c9f6aeb32ef35d9c667866d258ca3d92b0d1f2bb0df31e1ed83cdf5c571941",
+    "et_pb_section_1": "2efa1094e4636ccaa6802e72643af2c1818d275b525734e64157bfeca1b8f539",
+    "et_pb_section_2": "dc030cff0852d13ff3490109f126cd6082ea43b783f4d262ffac63e6c9e53666",
+    "et_pb_section_4": "ba496e3c5e958c9513c637982b5f2ada76545129b597cbef556573e94775d8fb",
+    "et_pb_section_5": "693ec8206a71d6084388ee5e17c002d15424d096785e8439ffc830a60b9d928e",
+    "et_pb_section_6": "c146b846fbb7160070ee6179c272103a98f552efc208d43fe6a2f71f1da94903",
+    "et_pb_section_7": "71557cc1ebf4d35b0bb0ec52b6e7898a1b0ba4e0d900620b189789fd7388aae1"
+  },
+  "separatelyAuthoredChanges": [
+    {
+      "section": "et_pb_section_0",
+      "description": "Application CTA changed by concurrent application-form work, outside gallery implementation.",
+      "currentMarkup": "<a class=\"et_pb_button et_pb_button_1 et_pb_bg_layout_light\" href=\"/application\">Apply for Assistance</a>",
+      "originalMarkup": "<a class=\"et_pb_button et_pb_button_1 et_pb_bg_layout_light\" href=\"/assets/documents/aplication.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Download Application</a>"
+    }
+  ],
+  "galleryChangesOutsidePastEvents": false,
+  "footerReplacement": "Footer section 8 replaced by the shared root-layout footer at user request; all other recorded section hashes retained."
+}

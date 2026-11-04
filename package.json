@@ -11,17 +11,20 @@
     "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
     "next": "16.4.5",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "react-photo-album": "^3.6.2",
+    "yet-another-react-lightbox": "^3.33.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.4.5"
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=22.0.0"

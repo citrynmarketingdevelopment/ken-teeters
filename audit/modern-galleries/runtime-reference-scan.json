@@ -1,0 +1,4 @@
+{
+  "unwantedWordPressDependencies": [],
+  "allowedDomainReferences": "Canonical, Open Graph, JSON-LD identifiers and local production asset URLs. Legacy PDF inbound redirect remains intentional."
+}

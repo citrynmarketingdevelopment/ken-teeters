@@ -1,6 +1,6 @@
 # Kenneth Teeters Foundation migration
 
-Standalone Next.js 16.4.5 / React 19.3.1 / strict TypeScript application. All four public content pages retain their original paths and trailing slashes. No WordPress server, CMS, database, SMTP account, or environment variables are needed.
+Standalone Next.js 16.4.5 / React 19.3.1 / strict TypeScript application. The original four public content URLs retain their paths and trailing slashes. Our Work, Get Involved, Events, and the online assistance application are also available. No WordPress runtime, CMS, or database is required. Online forms require server-side SMTP.com credentials.
 
 ## Run
 
@@ -20,7 +20,7 @@ npm start
 
 ## Deploy to Vercel
 
-Import this directory as the project root: `D:/Projects/ken-teeters/refferences`. Use the Next.js framework preset, `npm run build`, and the default output configuration. `package-lock.json` is included project input; use `npm ci`. No environment variables or external CMS setup are required. Nothing has been deployed and no production domains have been modified.
+Import the repository root (`D:/Projects/ken-teeters`) as the project root. Use the Next.js framework preset, `npm run build`, and the default output configuration. `package-lock.json` is included project input; use `npm ci`. Configure `SMTP_API` and `SMTP_CHANNEL` as server-only production secrets before deploying. Both contact and application submissions send to `citryn.contactforms@gmail.com` using `contactforms@citryn.com` as the sender. Never commit `.env` files with credentials. The connected Vercel project is `ken-teeters` under `citryn-marketings-projects`, with production at https://ken-teeters.vercel.app/. Custom-domain DNS is managed separately.
 
 ## Architecture
 
@@ -51,3 +51,18 @@ See `audit/VALIDATION.md`, `audit/content-validation.json`, and `audit/responsiv
 Intentional third parties remain: QuickClick donation checkout and the Scripps news-video player/article. The source player and migrated embed both report `Unable to play media` in the test browser. Restoring that third-party stream requires its publisher; it is not supplied by the WordPress host. Donation URL preservation was checked without making a payment. Analytics/hosting telemetry and WordPress plugin scripts were removed.
 
 Production dependencies have zero npm audit findings. The installed Next ESLint tooling reports moderate development-only transitive minimatch advisories; these are not shipped in the browser application. No major-version dependency override was forced.
+
+## Modern event galleries
+
+The original migration results above describe the archived baseline. The approved gallery redesign replaces the three yearly gallery layouts and the homepage past-events band, while retaining the 32 event originals, routes, metadata and community renovation slideshows.
+
+The application now lives at `D:/Projects/ken-teeters`. The event catalog is `src/data/galleries.ts` (typed interface) with its inspectable payload in `src/data/galleries.json`. Each photograph has a stable ID, original dimensions, reviewed crop/focal point and descriptive alternative text. Gallery pages use React Photo Album; a dynamically loaded native dialog contains the inline Yet Another React Lightbox viewer. No gallery credentials or CMS are required.
+
+Photos use `#photo=<id>` links. Opening adds one history entry; photo changes replace it. Back closes the viewer and Forward restores it. Direct links close back to their album. Desktop has masonry and a full thumbnail rail; mobile uses a 92dvh sheet with swipe, zoom, drag dismissal and visible navigation. Viewer originals are never enlarged beyond their natural size by default. Original yearly styles are retained under `audit/modern-galleries/original-styles` and are not imported by the app.
+
+See `audit/modern-galleries/VALIDATION.md` for current testing, measured Lighthouse scores, hardware-test limits, and the separately authored application-form changes present in the shared checkout. The gallery work has not been pushed or deployed. Historical gallery audit reports describe the version tested at their timestamps. The current community layout is documented in `audit/community-redesign/CLARITY-REVISION.md`.
+
+
+## Email verification
+
+On November 4, 2026, one clearly marked dummy contact message and one dummy application were submitted through the local API handlers. SMTP.com accepted both; acceptance does not establish inbox placement. Production requires its own configured SMTP environment variables.

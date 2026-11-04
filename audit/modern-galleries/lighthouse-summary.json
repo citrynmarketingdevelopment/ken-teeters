@@ -1,0 +1,35 @@
+{
+  "desktop": {
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "LCPms": 723.18875,
+    "CLS": 0,
+    "url": "http://127.0.0.1:3002/2025-gallery/"
+  },
+  "mobile": {
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "LCPms": 3146.0245,
+    "CLS": 0,
+    "url": "http://127.0.0.1:3002/2024-gallery/"
+  },
+  "reduced-motion": {
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "LCPms": 4439.173750000002,
+    "CLS": 0,
+    "url": "http://127.0.0.1:3002/2024-gallery/#photo=2024-01"
+  }
+}

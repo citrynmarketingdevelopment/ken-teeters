@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { validateInquiry } from '../src/lib/inquiry.ts';
+const valid = { kind:'contact', name:'Test Inquiry', email:'test@example.com', message:'This is a validation fixture.' };
+test('accepts a contact inquiry and trims input',()=>{const result=validateInquiry({...valid,name:'  Test Inquiry  '});assert.equal(result.data.name,'Test Inquiry');});
+test('requires business and trade for service offers',()=>{const result=validateInquiry({...valid,kind:'services'});assert.ok(result.fields.business);assert.ok(result.fields.trade);});
+test('rejects malformed bodies, long messages, and header injection',()=>{for(const raw of [null,[],{...valid,name:22},{...valid,email:'test@example.com\r\nBcc: x@example.com'},{...valid,message:'x'.repeat(3001)}])assert.equal(validateInquiry(raw).data,undefined);});
+test('accepts complete service offer',()=>{assert.ok(validateInquiry({...valid,kind:'services',business:'Test Plumbing',trade:'Plumbing'}).data);});
+import { isSameOriginRequest } from '../src/lib/request-origin.ts';
+test('validates the public host behind Next server',()=>{assert.equal(isSameOriginRequest(new Request('http://localhost:3100/api/inquiry/',{headers:{host:'127.0.0.1:3100',origin:'http://127.0.0.1:3100'}})),true);});
+test('rejects missing, malformed, or cross-site origins',()=>{for(const origin of ['', 'null', 'https://attacker.example'])assert.equal(isSameOriginRequest(new Request('http://localhost:3100/api/inquiry/',{headers:{host:'127.0.0.1:3100',origin}})),false);});
