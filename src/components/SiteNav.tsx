@@ -43,6 +43,7 @@ export function SiteNav() {
           </div>
         </div>)}
         <Link href="/events/" onClick={close} aria-current={pathname.startsWith('/events') || pathname.includes('-gallery') ? 'page' : undefined}>Events</Link>
+        <a href="https://quickclick.com/r/rfgqff7zjlg59evdhbsf5dmcpdlshr" className="site-donate" onClick={close} target="_blank" rel="noopener noreferrer">Donate<span className="sr-only"> (opens in a new tab)</span></a>
         <Link href="/application/" onClick={close} className="site-apply">Apply Now</Link>
         <button className="site-theme-toggle" aria-label="Switch color theme" onClick={() => {
           const root = document.documentElement;

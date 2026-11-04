@@ -10,3 +10,10 @@
 [data-theme=light] .foundation-page,[data-theme=light] .site-header{--foundation-bg:#f8f9fb;--foundation-surface:#f0f3f7;--foundation-ink:#21325f;--foundation-muted:#526078;--foundation-line:#d5dce5;--foundation-accent:#b31f36;--foundation-button-ink:#fafbfc}
 [data-theme=dark] .foundation-page,[data-theme=dark] .site-header{--foundation-bg:#141d2d;--foundation-surface:#202d42;--foundation-ink:#e5eaf4;--foundation-muted:#bac6d8;--foundation-line:#3b4b63;--foundation-accent:#ef8797;--foundation-button-ink:#241721}
 .foundation-hero .hero-photo img[src*="Image_20251020"]{object-position:50% 35%}
+/* Shared donation action, using the foundation's existing QuickClick checkout. */
+.site-navigation .site-donate{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:10px 20px;border:1px solid var(--foundation-line);border-radius:8px;background:#fff;color:#21325f;font-weight:500}
+.site-navigation .site-donate:hover{background:#eef1f7}
+.site-navigation .site-donate:active{transform:scale(.98)}
+@media(min-width:1024px) and (max-width:1199px){.site-navigation{gap:20px}}
+@media(max-width:1023px){.site-navigation .site-donate{padding:13px;text-align:center}}
+@media(prefers-reduced-motion:reduce){.site-navigation .site-donate:active{transform:none}}

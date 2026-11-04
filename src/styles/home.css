@@ -1766,3 +1766,16 @@
 .source-home .wp-block-site-logo img{
 				height: auto;
 			}
+/* Hero actions: one close group, white donation button and red application button. */
+.source-home .et_pb_section_0 .et_pb_row_1.et_pb_row{display:flex;justify-content:center;align-items:center;gap:16px;max-width:600px}
+.source-home .et_pb_section_0 .et_pb_row_1>.et_pb_column{float:none;width:auto!important;margin:0!important}
+.source-home .et_pb_section_0 .et_pb_row_1 .et_pb_button_module_wrapper{margin:0!important}
+.source-home #page-container .et_pb_section_0 .et_pb_button_0{background-color:#fff;color:#21325f!important}
+.source-home #page-container .et_pb_section_0 .et_pb_button_0:hover{background-color:#eef1f7;color:#21325f!important}
+.source-home #page-container .et_pb_section_0 .et_pb_button_1{background-color:#b31f36;color:#fff!important}
+.source-home #page-container .et_pb_section_0 .et_pb_button_1:hover{background-color:#94192d;color:#fff!important}
+@media(max-width:767px){
+.source-home .et_pb_section_0 .et_pb_row_1.et_pb_row{flex-direction:column;gap:12px}
+.source-home .et_pb_section_0 .et_pb_row_1>.et_pb_column{width:min(100%,260px)!important}
+.source-home .et_pb_section_0 .et_pb_row_1 a.et_pb_button{display:block;box-sizing:border-box;width:100%;text-align:center}
+}
