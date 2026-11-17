@@ -4,12 +4,13 @@ import { pages, type PageKey } from '@/lib/content';
 import { Interactions } from './Interactions';
 import { eventPreviewsMarkup } from '@/lib/event-previews';
 import { workPreviewMarkup } from '@/lib/work-preview';
+import { heroSocialLinksMarkup } from '@/lib/social-links';
 
 /** Trusted, locally preserved static content. No remote HTML or scripts execute. */
 export async function MigrationPage({pageKey}:{pageKey:PageKey}){
  const page=pages[pageKey];
  const source=await readFile(path.join(process.cwd(),'src/data',pageKey+'.html'),'utf8');
- const html=source.replace('<!--event-gallery-previews-->', eventPreviewsMarkup()).replace('<!--community-work-preview-->',workPreviewMarkup());
+ const html=source.replace('<!--hero-social-links-->', heroSocialLinksMarkup()).replace('<!--event-gallery-previews-->', eventPreviewsMarkup()).replace('<!--community-work-preview-->',workPreviewMarkup());
  return <div className={`migration-page source-${pageKey} ${page.bodyClasses}`}>
    <a className="skip-link" href="#main-content">Skip to content</a>
    <div className={page.bodyClasses}>
