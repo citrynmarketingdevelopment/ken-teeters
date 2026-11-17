@@ -17,7 +17,7 @@ export function InquiryForm({ kind }: { kind: 'services' | 'contact' }) {
       const result = await response.json();
       setMessage(result.message); setErrors(result.fields ?? {}); setSuccess(response.ok);
       if (response.ok) form.reset();
-    } catch { setMessage('Your message could not be sent. Please try again or call 661-496-1400.'); }
+    } catch { setMessage('Your message could not be sent. Please try again later.'); }
     finally { setBusy(false); }
   }
   function input(name: string, label: string, type = 'text', required = true, autoComplete?: string) {

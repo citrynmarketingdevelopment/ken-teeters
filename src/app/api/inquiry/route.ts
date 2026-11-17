@@ -29,10 +29,10 @@ export async function POST(request: Request) {
   for (const [key, value] of attempts) if (value.expires <= now) attempts.delete(key);
   const key = createHash('sha256').update(data.email.toLowerCase()).digest('hex');
   const attempt = attempts.get(key) ?? { count: 0, expires: now + 900000 };
-  if (attempt.count >= 3 || attempts.size >= 10000) return respond('Please wait 15 minutes before sending another message, or call 661-496-1400.', 429);
+  if (attempt.count >= 3 || attempts.size >= 10000) return respond('Please wait 15 minutes before sending another message.', 429);
   attempt.count++; attempts.set(key, attempt);
   const apiKey = process.env.SMTP_API; const channel = process.env.SMTP_CHANNEL;
-  if (!apiKey || !channel) return respond('Online messages are temporarily unavailable. Please call 661-496-1400.', 503);
+  if (!apiKey || !channel) return respond('Online messages are temporarily unavailable. Please try again later.', 503);
   try {
     const response = await fetch('https://api.smtp.com/v4/messages', {
       method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json', 'X-SMTPCOM-API': apiKey },
@@ -47,6 +47,6 @@ export async function POST(request: Request) {
     return respond('Your message has been submitted. Thank you for getting in touch.', 200);
   } catch {
     console.error('Foundation inquiry delivery could not be confirmed.');
-    return respond('We could not confirm your message was sent. Please try again or call 661-496-1400.', 502);
+    return respond('We could not confirm your message was sent. Please try again later.', 502);
   }
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { MapPinLineIcon, PhoneIcon, EnvelopeSimpleIcon, ArrowUpRightIcon } from '@phosphor-icons/react/ssr';
+import { MapPinLineIcon, ArrowUpRightIcon } from '@phosphor-icons/react/ssr';
 
 export function FoundationFooter() {
   return (
@@ -20,8 +20,6 @@ export function FoundationFooter() {
           </section>
           <section className="shared-footer__contact" aria-labelledby="footer-contact">
             <h2 id="footer-contact">We’re here to help.</h2>
-            <a href="tel:+16614961400"><PhoneIcon size={21} aria-hidden="true" /><span>661-496-1400</span></a>
-            <a href="mailto:kennethteeters@yahoo.com"><EnvelopeSimpleIcon size={21} aria-hidden="true" /><span>kennethteeters@yahoo.com</span></a>
             <Link className="shared-footer__message" href="/get-involved/#contact">Contact Us <ArrowUpRightIcon size={18} aria-hidden="true" /></Link>
           </section>
         </div>

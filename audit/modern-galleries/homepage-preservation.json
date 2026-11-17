@@ -12,7 +12,7 @@
   "sectionHashes": {
     "et_pb_section_0": "01c9f6aeb32ef35d9c667866d258ca3d92b0d1f2bb0df31e1ed83cdf5c571941",
     "et_pb_section_1": "2efa1094e4636ccaa6802e72643af2c1818d275b525734e64157bfeca1b8f539",
-    "et_pb_section_2": "dc030cff0852d13ff3490109f126cd6082ea43b783f4d262ffac63e6c9e53666",
+    "et_pb_section_2": "174164f632d1f4c84f3d847d07db1fba62ede5f5db0adba4fd7f53d31a1b307b",
     "et_pb_section_4": "ba496e3c5e958c9513c637982b5f2ada76545129b597cbef556573e94775d8fb",
     "et_pb_section_5": "693ec8206a71d6084388ee5e17c002d15424d096785e8439ffc830a60b9d928e",
     "et_pb_section_6": "c146b846fbb7160070ee6179c272103a98f552efc208d43fe6a2f71f1da94903",
@@ -27,5 +27,6 @@
     }
   ],
   "galleryChangesOutsidePastEvents": false,
-  "footerReplacement": "Footer section 8 replaced by the shared root-layout footer at user request; all other recorded section hashes retained."
+  "footerReplacement": "Footer section 8 replaced by the shared root-layout footer at user request; all other recorded section hashes retained.",
+  "contactInformationUpdate": "At user request, removed the phone number and email from the fundraiser paragraph and linked to the contact section. Updated only the section 2 hash for this content change."
 }

@@ -22,6 +22,6 @@ export function DonationForm() {
     <p className="donation-instructions">On the secure checkout page, select recurring giving and a <strong>monthly</strong> schedule. Review the amount and schedule before authorizing your credit or debit card.</p>
     <button className="foundation-button" type="submit">Continue to Checkout <ArrowUpRightIcon size={18} /></button>
     <p className="donation-security"><LockKeyIcon size={17} /> Card details are handled by QuickClick.</p>
-    <p className="donation-help">For help changing or stopping a recurring gift, call <a href="tel:+16614961400">661-496-1400</a>.</p>
+    <p className="donation-help">For help changing or stopping a recurring gift, <a href="#contact">contact us</a>.</p>
   </form>;
 }
